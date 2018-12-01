@@ -1,0 +1,184 @@
+body {
+background-color: rgba(0,0,0,0);
+}
+
+
+form {
+color: darkslateblue;
+width: 100%;
+max-width: 500px;
+/*
+border: 2px solid;
+border-radius: 10px;
+border-color: dodgerblue;
+box-shadow: 4px 4px 4px rgba(0, 123, 255, .25);
+*/
+padding: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+
+background-color: #fdfeff;
+
+}
+
+div {
+direction: rtl;
+}
+
+html {
+direction: rtl;
+}
+
+.form-row {
+max-width: 600px;
+}
+
+.selected-button-sections {
+color: #fff;
+background-color: #17a2b8;
+border-color: #17a2b8;
+}
+
+.answersSubject {
+color: darkslateblue;
+border: 1px solid;
+border-radius: 10px;
+border-color: rgba(7, 194, 241, 0.425);
+background-color: white;
+border-radius: 5px;
+-moz-border-radius: 5px 5px 0px 0px;
+background: rgba(246, 253, 255, 0.562);
+padding: 0px 8px 3px 8px;
+box-shadow: 0px -1px 2px #F1F1F1;
+-moz-box-shadow: -0px -1px 2px #F1F1F1;
+-webkit-box-shadow: 4px 4px 4px #F1F1F1;
+font-weight: normal;
+font-size: 12px;
+padding: 20px;
+padding-bottom: 0px;
+margin-bottom: 15px;
+}
+
+.form-header {
+border-bottom: 1px solid;
+color: cornflowerblue;
+margin: 20px;
+border-color: lightgray;
+}
+
+.calc-button {
+border-top: 1px solid;
+border-color: lightgray;
+padding-top: 20px;
+padding-bottom: 10px;
+margin-top: 10px;
+}
+
+.results {
+text-align: center;
+/*
+border: 2px solid;
+border-radius: 10px;
+border-color: dodgerblue;
+box-shadow: 4px 4px 4px rgba(0, 123, 255, .25);
+*/
+max-width: 500px;
+width:100%;
+padding: 50px;
+padding-top: 20px;
+background-color: #fdfeff;
+}
+
+.score {
+font-size: 14px;
+}
+
+.score-subject {
+color: darkgreen;
+background-color: rgb(207, 243, 207);
+border: 1px solid;
+border-color: rgb(162, 214, 162);
+border-radius: 10px;
+border-radius: 5px;
+-moz-border-radius: 5px 5px 0px 0px;
+padding: 0px 8px 3px 8px;
+box-shadow: 0px -1px 2px #F1F1F1;
+-moz-box-shadow: -0px -1px 2px #F1F1F1;
+-webkit-box-shadow: 4px 4px 4px #F1F1F1;
+font-weight: normal;
+font-size: 12px;
+padding: 20px;
+padding-bottom: 0px;
+margin-bottom: 15px;
+}
+
+.overall-score-subject {
+color: steelblue;
+    background-color: #d6e2ff;
+    border: 1px solid;
+    border-color: #bcd6f3;
+border-radius: 10px;
+border-radius: 5px;
+-moz-border-radius: 5px 5px 0px 0px;
+padding: 0px 8px 3px 8px;
+box-shadow: 0px -1px 2px #F1F1F1;
+-moz-box-shadow: -0px -1px 2px #F1F1F1;
+-webkit-box-shadow: 4px 4px 4px #F1F1F1;
+font-weight: normal;
+font-size: 12px;
+padding: 20px;
+padding-bottom: 0px;
+margin-bottom: 15px;
+
+}
+
+.form-control-cust {
+width: 18%;
+position: relative;
+right: 20px;
+height: 27px;
+top: 3px;
+padding: .375rem .75rem;
+padding-left: 0px;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+}
+
+.twenty-three {
+font-size: 18px;
+    margin-right: 22px;
+}
+
+.container-results {
+    width:100%;
+    max-width:100%;
+}
+
+.all-results {
+    width: fit-content;
+}
+
+.dbt:before {
+    color:#d5dae5;
+    content: 'Designed and built by Dan Zlotnikov';
+    font-size: 12px;
+}
+
+.dbt {
+    margin-top:0%;
+}
+
+.dmbt:before {
+    color:#d5dae5;
+    content: 'Formula by David Maman';
+    font-size: 12px;
+}
+
+.dmbt {
+    margin-top:0%;
+}
